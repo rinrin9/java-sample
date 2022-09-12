@@ -8,12 +8,3 @@ public class ArgsLastPrinter{
     }
   }
 }
-
-
-
-
-
-
-
-
-
