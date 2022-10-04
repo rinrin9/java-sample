@@ -3,13 +3,13 @@ public class FizzBuzz {
 		int i = Integer.parseInt(args[0]);
 		for (int k = 1; k <= i; k++) {
 			if (k % 3 == 0 && k % 5 == 0) {
-				System.out.println("FizzBuzz");
+				System.out.print("FizzBuzz" + " ");
 			} else if (k % 5 == 0) {
-				System.out.println("Buzz");
+				System.out.print("Buzz" + " ");
 			} else if (k % 3 == 0) {
-				System.out.println("Fizz");
+				System.out.print("Fizz" + " ");
 			} else {
-				System.out.println(k);
+				System.out.print(k + " ");
 			}
 		}
 
