@@ -1,7 +1,7 @@
 import java.util.logging.*;
 
-public class TryCatchFinallySample {
-	private static Logger logger = Logger.getLogger(TryCatchFinallySample.class.getName());
+public class TryCatchFinallySample1 {
+	private static Logger logger = Logger.getLogger(TryCatchFinallySample1.class.getName());
 
 	public static void main(String[] args) {
 		logger.setLevel(Level.ALL);
